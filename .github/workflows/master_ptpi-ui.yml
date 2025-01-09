@@ -53,4 +53,4 @@ jobs:
           app-name: 'ptpi-ui'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_60D6C84AF3F24D2BBB6A9DDABDE7B4E7 }}
-          package: .
+          package: ./dist
